@@ -1,4 +1,4 @@
-FROM java:14
+FROM openjdk:11-jdk
 #MAINTAINER David Flemström <dflemstr@spotify.com>
 
 ENTRYPOINT ["java", "-jar", "spring-boot-docker-maven-0.0.1-SNAPSHOT.jar"]

@@ -28,8 +28,15 @@ jobs:
     - name: Build and Push Docker Image
       uses: mr-smithers-excellent/docker-build-push@v5
       with:
+<<<<<<< HEAD
         image: docker02440/git-action-cicd-pipeline
         registry: docker.io
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
 
+=======
+        image: docker02440/github-action-tut
+        registry: docker.io
+        username: ${{ secrets.DOCKER_USERNAME }}
+        password: ${{ secrets.DOCKER_PASSWORD }}
+>>>>>>> 2c83ffb66a50e61e178c30bc7b355b28532ef3bf
